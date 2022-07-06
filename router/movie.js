@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const movie_controller = require("../controller/movie.js")
+
 router.post('/add_movie', movie_controller.add)
 router.get('/get_movie' , movie_controller.get);
 
