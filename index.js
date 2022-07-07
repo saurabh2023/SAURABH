@@ -21,7 +21,7 @@ app.use(session({
     saveUninitialized: true,
     resave: true,
     store: MongoStore.create({
-        mongoUrl: `mongodb+srv://username:password@cluster0.h9pbz.mongodb.net/movies?retryWrites=true&w=majority`
+        mongoUrl: `mongodb+srv://saurabh:saurabh20@cluster0.h9pbz.mongodb.net/movies?retryWrites=true&w=majority`
     })
 }));
 
