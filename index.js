@@ -32,4 +32,4 @@ app.use('/bms/users/' , user_routes)
 app.use('/bms/movies/' , movie_routes)
 
 
-app.listen(3000 , async()=>{await connect_db() ; console.log("Connection initial")})
+app.listen(process.env.PORT, async()=>{await connect_db() ; console.log("Connection initial")})
