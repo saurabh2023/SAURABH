@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -14,4 +14,4 @@ jobs:
           heroku_app_name: "quiet-springs-03208"
           heroku_email: "wadekarsaurabh46@gmail.com"
           buildpack: "https://github.com/heroku/heroku-buildpack-nodejs.git"
-          
+
