@@ -3,7 +3,7 @@ const movies_lists = mongoose.Schema(
     {
         movie_name: { type: String },
         movie_rating: { type: String },
-        movie_city: { type: String ,  lowecase: true},
+        movie_city: { type: String ,  lowercase: true},
         movie_showing: { type: [] }
     },
     { timestamps: true }
